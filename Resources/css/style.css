@@ -1,0 +1,115 @@
+body {
+    background-color: black;
+    opacity: 0.9;
+}
+
+/* setting font for entiere document */
+h2, h4, h3, p, h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    font-weight: bold;
+}
+
+/* header container with all child elements in it */
+.header {
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 15px;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    background-color: black;
+}
+
+/* splitting elements to the right and left of header */
+#header, .item-2{
+     margin-left: auto;
+}
+
+/* underlining elements on right of header */
+#header, .item-2, .item-3, .item-4 {
+    text-decoration: underline;
+}
+
+.mission{
+    background-image: url("../images/img-mission-background.jpg");
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    height: 700px;
+    background-repeat: no-repeat;
+}
+
+.mission, .mission-overlay {
+    background-color: black;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.Tea-of-the-month {
+    display: flex;
+    max-width: 1000px;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.Tea-of-the-month #header {
+    display: flex;
+    width: 1000px;
+    flex-direction: column;
+}
+
+.fall_tea, .spiced_tea, .seasonal_donuts, .myrtle_tea, .bedford_tea {
+    display: flex;
+    width: 300px;
+    height: 250px;
+    flex-shrink: 1;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Locations {
+    background-image: url("../images/img-locations-background.jpg");
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    height: 500px;
+    width: 1200px;
+    background-repeat: no-repeat;
+    justify-content: space-around;
+}
+
+.downtown , .east-bayside, .oakdale {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    opacity: 1;
+}
+
+.end {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+}
+
+.footer {
+    display: flex;
+    text-align: left;
+    margin-left: 20px;
+}
